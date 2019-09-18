@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-family: 'Open Sans',sans-serif;
   box-sizing: border-box;
@@ -7,26 +7,34 @@
   text-decoration: none;
   font-weight: bold; }
 
-.wrapper {
-  display: grid; }
-
-.wrapper > div {
-  border: 2px solid blue;
-  border-radius: 5px;
-  background-color: green;
-  color: purple;
-  padding: 4.2em;
-  margin: 2em; }
-
-.add_more {
-  border: 2px solid black;
-  background-color: purple;
-  color: black; }
+nav {
+  background: blue;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  display: none;
+  width: 100%; }
+  nav ul li {
+    margin: auto; }
+    nav ul li a {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center; }
 
 header {
   width: 90px;
   height: 90px;
-  color: blue; }
+  color: blue;
+  display: inline-block; }
+
+.active {
+  margin: 0;
+  height: 1020px;
+  display: block; }
+  .active a {
+    margin: 50px;
+    display: block; }
 
 .fas {
   font-size: 40px;
@@ -34,10 +42,12 @@ header {
   float: right;
   color: red; }
 
-.square {
-  height: 50px;
-  width: 50px;
-  background-color: blue; }
+.icon-opt {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  padding: 25px;
+  border: 2px solid black; }
 
 button {
   color: blue;
@@ -46,5 +56,21 @@ button {
   padding: 10px;
   margin-left: 20px;
   margin-top: 20px; }
+
+.wrapper {
+  display: grid; }
+
+.tech-list {
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: #b3e6ff;
+  color: purple;
+  padding: 5em;
+  margin: 2em; }
+
+.add-more {
+  border: 2px solid black;
+  background-color: purple;
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */

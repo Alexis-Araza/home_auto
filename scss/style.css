@@ -10,10 +10,10 @@
 .wrapper {
   display: grid; }
 
-.wrapper > div {
+.tech_list {
   border: 2px solid blue;
   border-radius: 5px;
-  background-color: green;
+  background-color: lightblue;
   color: purple;
   padding: 4.2em;
   margin: 2em; }
@@ -26,7 +26,8 @@
 header {
   width: 90px;
   height: 90px;
-  color: blue; }
+  color: blue;
+  display: inline-block; }
 
 .fas {
   font-size: 40px;
@@ -34,10 +35,14 @@ header {
   float: right;
   color: red; }
 
-.square {
-  height: 50px;
-  width: 50px;
-  background-color: blue; }
+.icon_opt {
+  display: inline-block; }
+
+.fa {
+  font-size: 100px;
+  padding: 25px;
+  border: 2px solid black;
+  color: lightblue; }
 
 button {
   color: blue;

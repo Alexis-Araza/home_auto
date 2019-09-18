@@ -1,5 +1,11 @@
 console.log('my script is working');
 
-  $( function() {
-    $( "#tabs" ).tabs();
-  } );
+$(document).ready(function(){
+  $('.fas').click(function(){
+    $('nav').toggleClass('active');
+  })
+
+  $('close').click(function(){
+    $('nav').hide();
+  })
+});

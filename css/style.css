@@ -23,10 +23,16 @@ nav {
       text-align: center; }
 
 header {
-  width: 90px;
+  width: 430px;
   height: 90px;
   color: blue;
   display: inline-block; }
+
+.master {
+  position: relative;
+  content: "";
+  clear: both;
+}
 
 .active {
   margin: 0;
@@ -40,22 +46,40 @@ header {
   font-size: 40px;
   margin: 5px;
   float: right;
-  color: red; }
+  color: red;
+  bottom: 50px;
+  z-index: 10; }
+
+.icon-row {
+  display: table;
+  position: }
 
 .icon-opt {
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  padding: 25px;
-  border: 2px solid black; }
+  display: grid-row;
+  align-items: center;
+  grid-template-columns: repeat(2, 12px);
+  grid-template-rows: repeat(2, auto);
+  border: 3px solid black; 
+  width: 11em;
+  float: left;}
 
 button {
   color: blue;
   border: 2px solid black;
-  font-size: 30px;
+  font-size: 39px;
   padding: 10px;
   margin-left: 20px;
   margin-top: 20px; }
+
+.tech-tab {
+  position: absolute;
+}
+
+.room-tab {
+  position: absolute;
+  right: 0.98em;
+  top: 0.01em;
+}
 
 .wrapper {
   display: grid; }
@@ -72,5 +96,30 @@ button {
   border: 2px solid black;
   background-color: purple;
   color: black; }
+
+.home-logos {
+  height: 150px;
+  display: inline-block;
+  right: 100px; }
+
+.fa-plus-circle {
+  height: 100px;
+  width: 372px;
+  font-size: 40px;
+  padding-top: 28px;
+  padding-left: 30px;
+}
+
+.add-devices-txt {
+  font-size: 30px;
+  padding-left: 45px;
+  width: 11em;
+  float: left; 
+}
+
+h1 {
+  display: block;
+  width: 50%;
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

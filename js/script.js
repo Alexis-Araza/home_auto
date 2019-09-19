@@ -1,7 +1,7 @@
 console.log('my script is working');
 
 $(document).ready(function(){
-  $('.fas').click(function(){
+  $('.menu').click(function(){
     $('nav').toggleClass('active');
   })
 

@@ -85,6 +85,12 @@ button {
   top: 0.01em;
 }
 
+.room-tab-alt {
+  position: absolute;
+  right: 0.61em;
+  top: 0.01em;
+}
+
 .sign-up {
   display: inline-block;
   border: 2px solid black;
@@ -134,7 +140,8 @@ button {
   background-color: #b3e6ff;
   color: purple;
   padding: 6em;
-  margin: 2em; }
+ /* margin: 2em; */
+  font-size: 19px;}
 
 .add-more {
   border: 2px solid black;
@@ -158,6 +165,13 @@ button {
 .add-devices-txt {
   font-size: 30px;
   padding-left: 45px;
+  width: 11em;
+  float: left; 
+}
+
+.custom-txt {
+  font-size: 30px;
+  padding-left: 90px;
   width: 11em;
   float: left; 
 }

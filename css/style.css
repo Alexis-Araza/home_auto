@@ -1,5 +1,5 @@
 * {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   font-family: 'Open Sans',sans-serif;
   box-sizing: border-box;
@@ -8,24 +8,26 @@
   font-weight: bold; }
 
 nav {
-  background: blue;
+  background: lightblue;
   z-index: 10;
   position: fixed;
   top: 0px;
   text-align: center;
   display: none;
-  width: 100%; }
+  width: 100%;
+  left: 0px;}
   nav ul li {
-    margin: auto; }
+    margin: auto; 
+    padding-top: 90px;}
     nav ul li a {
-      font-size: 40px;
-      line-height: 40px;
-      text-align: center; }
+      font-size: 55px;
+      line-height: 70px;
+      text-align: center;}
 
 header {
-  width: 430px;
-  height: 90px;
-  color: blue;
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
   display: inline-block; }
 
 h1 {
@@ -41,6 +43,9 @@ button {
   margin-left: 20px;
   margin-top: 20px; }
 
+
+
+
 .master {
   position: relative;
   content: "";
@@ -49,22 +54,105 @@ button {
 
 .active {
   margin: 0;
-  height: 1020px;
+  height: 70em;
   display: block; }
   .active a {
     margin: 50px;
     display: block; }
 
 .fas {
-  font-size: 40px;
+  font-size: 60px;
   margin: 5px;
   float: right;
   color: red;
-  bottom: 50px;
   z-index: 10; }
 
-.icon-row {
-  display: table; }
+/*.icon-row {
+  display: table; }*/
+
+
+
+
+.sign-up {
+  display: inline-block;
+  border: 2px solid black;
+  font-size: 60px;
+  padding: 30px;
+  margin-left: 18%;
+  margin-top: 260px;
+  display: block;
+  color: purple;
+  font-weight: normal;
+}
+
+.log-in {
+  border: 2px solid black;
+  font-size: 60px;
+  padding: 30px;
+  margin-left: 22%;
+  margin-top: 240px;
+  display: block;
+  font-weight: normal;
+}
+
+.log-mail {
+  border: 2px solid grey;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+  left: 120px;
+  top: 300px;
+  position: absolute;
+}
+
+.log-pass {
+  border: 2px solid grey;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+  left: 120px;
+  top: 420px;
+  position: absolute;
+}
+
+.log-sub {
+  border: 2px solid grey;
+  font-size: 20px;
+  font-weight: normal;
+  color: grey;
+  text-align: center;
+  padding: 20px;
+  left: 190px;
+  top: 530px;
+  position: absolute;
+  color: blue;
+}
+
+.landing-txt {
+  z-index: 10;
+  position: absolute;
+  top: -90px;
+  left: 75px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.landing-txt-two {
+  z-index: 10;
+  position: absolute;
+  bottom: 150px;
+  left: 45px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+
+
+
+/*.wrapper {
+  display: grid; }*/
 
 .icon-opt {
   display: grid-row;
@@ -72,7 +160,10 @@ button {
   grid-template-columns: repeat(2, 12px);
   grid-template-rows: repeat(2, auto);
   border: 3px solid black; 
-  width: 11em;
+  width: 14em;
+  height: 14em;
+  margin-left: 12px;
+  margin-top: 10px;
   float: left;}
 
 .tech-tab {
@@ -91,48 +182,8 @@ button {
   top: 0.01em;
 }
 
-.sign-up {
-  display: inline-block;
-  border: 2px solid black;
-  font-size: 60px;
-  padding: 30px;
-  margin-left: 12%;
-  margin-top: 260px;
-  display: block;
-  color: purple;
-  font-weight: normal;
-}
 
-.log-in {
-  border: 2px solid black;
-  font-size: 60px;
-  padding: 30px;
-  margin-left: 17%;
-  margin-top: 240px;
-  display: block;
-  font-weight: normal;
-}
 
-.landing-txt {
-  z-index: 10;
-  position: absolute;
-  top: -90px;
-  left: 45px;
-  font-size: 50px;
-  font-weight: normal;
-}
-
-.landing-txt-two {
-  z-index: 10;
-  position: absolute;
-  bottom: 150px;
-  left: 5px;
-  font-size: 50px;
-  font-weight: normal;
-}
-
-/*.wrapper {
-  display: grid; }*/
 
 .tech-list {
   border: 2px solid blue;
@@ -140,75 +191,50 @@ button {
   background-color: #b3e6ff;
   color: purple;
   padding: 6em;
- /* margin: 2em; */
+  margin: 0.7em; 
   font-size: 19px;}
 
 .add-more {
   border: 2px solid black;
-  background-color: purple;
+  background-color: lightblue;
   color: black; }
 
 .home-logos {
-  height: 150px;
+  height: 13.6em;
   display: inline-block;
-  right: 100px; }
+  float: left;}
+
+
+
 
 .fa-plus-circle {
   height: 100px;
-  width: 372px;
+  width: 11.5em;
+  margin-left: 12px;
   font-size: 40px;
-  padding-top: 28px;
-  padding-left: 30px;
+  padding-top: 25px;
+  padding-left: 80px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .add-devices-txt {
   font-size: 30px;
-  padding-left: 45px;
-  width: 11em;
-  float: left; 
+  width: 10.5em;
+  float: right;
+  margin-top: 6px; 
 }
 
 .custom-txt {
   font-size: 30px;
-  padding-left: 90px;
-  width: 11em;
-  float: left; 
+  width: 10em;
+  float: right;
+  margin-top: 6px; 
 }
 
-.log-mail {
-  border: 2px solid grey;
-  font-size: 20px;
-  color: grey;
-  text-align: center;
-  padding: 10px;
-  left: 80px;
-  top: 300px;
-  position: absolute;
-}
 
-.log-pass {
-  border: 2px solid grey;
-  font-size: 20px;
-  color: grey;
-  text-align: center;
-  padding: 10px;
-  left: 80px;
-  top: 420px;
-  position: absolute;
-}
+/*Media Queries Start*/
 
-.log-sub {
-  border: 2px solid grey;
-  font-size: 20px;
-  font-weight: normal;
-  color: grey;
-  text-align: center;
-  padding: 20px;
-  left: 150px;
-  top: 530px;
-  position: absolute;
-  color: blue;
-}
+/*Media Queries End*/
 
 /*# sourceMappingURL=style.css.map */

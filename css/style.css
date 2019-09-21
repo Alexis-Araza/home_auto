@@ -46,13 +46,6 @@ h1 {
   padding-top: 0.8em;
 }
 
-h2 {
-  margin: 0 auto;
-  position: absolute;
-  top: 5em;
-  left: 5.4em;
-}
-
 button {
   color: blue;
   border: 2px solid black;
@@ -92,6 +85,15 @@ button {
   float: right;
   color: red;
   z-index: 10; }
+
+.fa-angle-left {
+  position: absolute;
+  font-size: 80px;
+  left: 0.55em;
+  top: 0.18em;
+  color: red;
+  z-index: 10;
+  float: left; }
 
 /*.icon-row {
   display: table; }*/
@@ -205,7 +207,8 @@ button {
   width: 14em;
   height: 14em;
   margin-left: 12px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 1px;
   float: left;
   position: relative;}
 
@@ -322,6 +325,16 @@ button {
   margin: 0.90em; 
   font-size: 19px;
   width: 24em}
+
+.tech-list-active {
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: black;
+  margin: 0.90em; 
+  font-size: 19px;
+  width: 24em
+}
 
 .add-more {
   border: 2px solid black;
@@ -484,7 +497,7 @@ button {
   padding-top: 25px;
   padding-left: 80px;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -512,8 +525,38 @@ button {
 
 .air-txt {
   margin: 0 auto;
+  position: absolute;
+  top: 5em;
+  left: 8.2em;
   position: relative;
+  font-weight: normal;
 }
+
+
+
+
+
+.air-temp {
+  position: absolute;
+  margin: 0 auto;
+  top: 5em;
+  left: 2.5em;
+  font-size: 35px;
+  text-align: center;
+}
+
+.air-temp-two {
+  position: absolute;
+  margin: 0 auto;
+  top: 5em;
+  left: 8.5em;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+
+
 
 .air-slider {
   position: absolute;
@@ -537,6 +580,12 @@ button {
 
 #slider .rs-border  {
     border: none;
+}
+
+#slider .rs-tooltip-text {
+  font-size: 28px;
+  top: 5.4em;
+  left: 5.4em;
 }
 
 

@@ -27,11 +27,12 @@
     <i id="close" class="fas fa-window-close"></i>
     <ul>
       <li>
+        <p class="menu-user">Username</p>
         <a href="home.html">Home</a>
         <a href="fave.html">Favourites</a>
         <a href="#">Statistics</a>
         <a href="#">Settings</a>
-        <a href="landing.html">Sign Out</a>
+        <a href="landing.html" class="menu-ss">Sign Out</a>
       </li>
     </ul>
   </nav>
@@ -41,19 +42,43 @@
 
 	<div class="btn">
 	  <button class="tech-tab" onclick="window.location.href='home.html'">Technology</button>
-	  <button class="room-tab" onclick="window.location.href='#'">Room</button>
+	  <button class="room-tab" onclick="window.location.href='home_room.html'">Room</button>
 	</div>
 
+
+
     <div class="icon-row">
-      <div class="tech-list">Fan</div>
-      <div class="tech-list">Air Conditioner</div>
-      <div class="tech-list">Fireplace</div>
-      <div class="tech-list">Vents</div>
+
+      <div class="tech-list">
+        <img src="images/logos/fan.png" class="list-icon">
+          <div class="list-txt">Fan</div>
+            <div class="list-para">Status: Offline</div>
+      </div>
+
+      <div class="tech-list">
+        <img src="images/logos/airc.png" class="list-icon-two">
+          <div class="list-txt-two">Air Conditioner</div>
+            <div class="list-para-two">Status: Offline</div>
+      </div>
+
+      <div class="tech-list">
+        <img src="images/logos/fire.png" class="list-icon-three">
+          <div class="list-txt-three">Fireplace</div>
+            <div class="list-para-three">Status: Offline</div>
+      </div>
+
+      <div class="tech-list">
+        <img src="images/logos/wind.png" class="list-icon-four">
+          <div class="list-txt-four">Vents</div>
+            <div class="list-para-four">Status: Offline</div>
+      </div>
+
     </div>
+
 
   	<div>
 		<i class="fa fa-plus-circle add-more">
-			<p class="add-devices-txt"> Add More Devices</p>
+			<p class="add-devices-txt">More Devices</p>
 		</i>
 	</div>
 

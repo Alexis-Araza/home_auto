@@ -21,14 +21,21 @@ nav {
     padding-top: 90px;}
     nav ul li a {
       font-size: 55px;
-      line-height: 70px;
-      text-align: center;}
+      line-height: 80px;
+      text-align: center;
+      color: black;}
 
 header {
   width: 100%;
   height: 100px;
 /*  background-color: lightblue;*/
   display: inline-block; }
+
+header i {
+  position: absolute;
+  top: 0.3em;
+  left: 6.9em;
+}
 
 h1 {
   display: block;
@@ -39,10 +46,11 @@ h1 {
   padding-top: 0.8em;
 }
 
-header i {
+h2 {
+  margin: 0 auto;
   position: absolute;
-  top: 0.3em;
-  left: 6.9em;
+  top: 5em;
+  left: 5.4em;
 }
 
 button {
@@ -51,6 +59,7 @@ button {
   font-size: 45.2px;
   padding: 20px;
   margin-top: 10px; }
+
 
 
 
@@ -76,8 +85,17 @@ button {
   color: red;
   z-index: 10; }
 
+.fa-window-close {
+  font-size: 56px;
+  margin-top: 25px;
+  margin-right: 25px;
+  float: right;
+  color: red;
+  z-index: 10; }
+
 /*.icon-row {
   display: table; }*/
+
 
 
 
@@ -160,6 +178,24 @@ button {
 
 
 
+
+.menu-user {
+  position: absolute;
+  top: 40px;
+  left: 165px;
+  font-size: 35px;
+  font-weight: normal;
+  color: grey;
+}
+
+.menu-ss {
+  line-height: 250px;
+}
+
+
+
+
+
 .icon-opt {
   display: inline-block;
   align-items: center;
@@ -182,20 +218,30 @@ button {
 
 .tech-tab {
   position: absolute;
+  border-radius: 3px;
   left: 0.3em;
+  color: black;
 }
 
 .room-tab {
   position: absolute;
+  border-radius: 3px;
   left: 6.6em;
   float: right;
+  color: black;
 }
 
 .room-tab-alt {
   position: absolute;
+  border-radius: 3px;
   right: 0.29em;
   top: 0.01em;
+  color: black;
 }
+
+
+
+
 
 .home-txt {
     z-index: 9;
@@ -213,7 +259,11 @@ button {
     font-size: 25px;
     position: absolute;
     text-align: center;
+    color: black;
 }
+  .home-txt-two::active {
+    color: black;
+  }
 
 .home-txt-three {
     z-index: 9;
@@ -263,19 +313,123 @@ button {
 
 
 
+
 .tech-list {
-  border: 2px solid blue;
+  border: 2px solid grey;
   border-radius: 5px;
-  background-color: #b3e6ff;
-  color: purple;
-  padding: 6em;
-  margin: 0.7em; 
-  font-size: 19px;}
+  background-color: beige;
+  color: black;
+  margin: 0.90em; 
+  font-size: 19px;
+  width: 24em}
 
 .add-more {
   border: 2px solid black;
   background-color: lightblue;
   color: black; }
+
+
+
+
+
+.list-txt {
+  position: absolute;
+  top: 5.5em;
+  left: 6.4em;
+  font-size: 30px;
+}
+
+.list-txt-two {
+  position: absolute;
+  top: 11.8em;
+  left: 6.6em;
+  font-size: 29px;
+}
+
+.list-txt-three {
+  position: absolute;
+  top: 17em;
+  left: 6.4em;
+  font-size: 30px;
+}
+
+.list-txt-four {
+  position: absolute;
+  top: 23em;
+  left: 6.4em;
+  font-size: 30px;
+}
+
+
+
+
+
+.list-para {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 11.5em;
+  left: 10em;
+}
+
+.list-para-two {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 20.8em;
+  left: 10em;
+}
+
+.list-para-three {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 30em;
+  left: 10em;
+}
+
+.list-para-four {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 39.3em;
+  left: 10em;
+}
+
+
+
+
+
+.list-icon {
+  height: 8em;
+  padding: 20px;
+}
+
+.list-icon-two {
+  height: 8em;
+  padding: 20px;
+  margin-left: 1.5em;
+}
+
+.list-icon-three {
+  height: 8em;
+  padding: 20px;
+  margin-left: 1em;
+}
+
+.list-icon-four {
+  height: 8em;
+  padding: 20px;
+  margin-left: 0.01em;
+}
+
+
+
+
 
 .home-logos {
   height: 13.6em;
@@ -321,6 +475,7 @@ button {
 
 
 
+
 .fa-plus-circle {
   height: 100px;
   width: 11.5em;
@@ -335,7 +490,7 @@ button {
 
 .add-devices-txt {
   font-size: 30px;
-  width: 10.5em;
+  width: 10em;
   float: right;
   margin-top: 8px; 
 }
@@ -346,6 +501,47 @@ button {
   float: right;
   margin-top: 6px; 
 }
+
+
+
+
+
+.air-head {
+  font-size: 2em;
+}
+
+.air-txt {
+  margin: 0 auto;
+  position: relative;
+}
+
+.air-slider {
+  position: absolute;
+  top: 20em;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+#slider .rs-range-color  {
+    background-color: black;
+}
+
+#slider .rs-path-color  {
+    background-color: grey;
+    border-radius: 0;
+}
+
+#slider .rs-handle  {
+    background-color: black;
+}
+
+#slider .rs-border  {
+    border: none;
+}
+
+
+
+
 
 
 /*Media Queries Start*/

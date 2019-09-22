@@ -83,7 +83,6 @@ button {
   margin-right: 31px; }
 
 .fa-angle-left {
-  position: absolute;
   font-size: 80px;
   left: 0.55em;
   top: 0.18em;
@@ -115,6 +114,7 @@ button {
   margin-top: 240px;
   display: block;
   font-weight: normal;
+  color: blue;
 }
 
 .log-mail {
@@ -652,19 +652,25 @@ button {
     font-size: 65px;}
 
   .fa-angle-left {
-    font-size: 80px;
-    left: 0.55em;
-    top: 0.18em;
-    color: red; }
+    font-size: 75px;
+    left: 0.48em;
+    top: 0.20em;
+    color: blue; }
 
 
 
 
 
   .menu-user {
-    top: 40px;
+    top: 35px;
     left: 120px;
     font-size: 30px;
+  }
+
+  .fav-head {
+    font-size: 2em;
+    margin-left: 2.5em;
+    margin-top: 0.2em;
   }
 
 
@@ -803,79 +809,79 @@ button {
 
 
 
-.list-txt {
-  top: 4.8em;
-  left: 6.5em;
-  font-size: 28px;
-}
+  .list-txt {
+    top: 4.8em;
+    left: 6.5em;
+    font-size: 28px;
+  }
 
-.list-txt-two {
-  top: 10.1em;
-  left: 6.4em;
-  font-size: 28px;
-}
+  .list-txt-two {
+    top: 10.1em;
+    left: 6.4em;
+    font-size: 28px;
+  }
 
-.list-txt-three {
-  top: 16.1em;
-  font-size: 28px;
-}
+  .list-txt-three {
+    top: 16.1em;
+    font-size: 28px;
+  }
 
-.list-txt-four {
-  top: 21.5em;
-  font-size: 28px;
-}
-
-
-
-
-
-.list-para {
-  top: 9.8em;
-  left: 9.5em;
-}
-
-.list-para-two {
-  top: 18.6em;
-  left: 9.5em;
-}
-
-.list-para-three {
-  top: 26.5em;
-  left: 9.4em;
-}
-
-.list-para-four {
-  top: 34.5em;
-  left: 9.5em;
-}
+  .list-txt-four {
+    top: 21.5em;
+    font-size: 28px;
+  }
 
 
 
 
 
-.list-icon {
-  height: 7em;
-  padding: 20px;
-  margin-left: 0.75em;
-}
+  .list-para {
+    top: 9.8em;
+    left: 9.5em;
+  }
 
-.list-icon-two {
-  height: 7em;
-  padding: 20px;
-  margin-left: 1.8em;
-}
+  .list-para-two {
+    top: 18.6em;
+    left: 9.5em;
+  }
 
-.list-icon-three {
-  height: 7em;
-  padding: 20px;
-  margin-left: 1.2em;
-}
+  .list-para-three {
+    top: 26.5em;
+    left: 9.4em;
+  }
 
-.list-icon-four {
-  height:6.5em;
-  padding: 20px;
-  margin-left: 0.69em;
-}
+  .list-para-four {
+    top: 34.5em;
+    left: 9.5em;
+  }
+
+
+
+
+
+  .list-icon {
+    height: 7em;
+    padding: 20px;
+    margin-left: 0.75em;
+  }
+
+  .list-icon-two {
+    height: 7em;
+    padding: 20px;
+    margin-left: 1.8em;
+  }
+
+  .list-icon-three {
+    height: 7em;
+    padding: 20px;
+    margin-left: 1.2em;
+  }
+
+  .list-icon-four {
+    height:6.5em;
+    padding: 20px;
+    margin-left: 0.69em;
+  }
 
 
 
@@ -901,11 +907,78 @@ button {
   }
 
   .custom-txt {
-    font-size: 30px;
-    width: 10em;
-    float: right;
-    margin-top: 6px; 
+    font-size: 22px;
+    width: 8em;
+    margin-top: 10px;
+    margin-right: 35px; 
   }
+
+
+
+
+  .air-head {
+    font-size: 1.6em;
+    margin-left: 4.3em;
+    margin-top: 0.2em;
+  }
+
+  .air-txt {
+    top: 4em;
+    left: 5.5em;
+  }
+
+
+
+
+
+  .air-temp {
+    top: 5em;
+    left: 2.2em;
+    font-size: 30px;
+  }
+
+  .air-temp-two {
+    top: 5em;
+    left: 8em;
+    font-size: 30px;
+  }
+
+
+
+
+
+  .air-slider {
+    top: 15em;
+    left: 0.7em;
+  }
+
+
+
+
+
+  .icon-txt {
+    top: 4.3em;
+    left: 1.1em;
+  }
+
+  .icon-txt-two {
+      top: 5em;
+      left: 0.07em;
+      font-size: 20px;
+  }
+
+  .icon-txt-three {
+      top: 4em;
+      left: 2em;
+  }
+
+  .icon-txt-four {
+      top: 5.3em;
+      font-size: 20px;
+      left: 0.2em;
+  }
+
+
 }
 
 

@@ -9,17 +9,21 @@ $(document).ready(function(){
 	    $('nav').hide();
 	  })
 
-	  	$("#slider").roundSlider({
-    		    radius: 150,
-    		    width: 40,
-    			value: "18,78",
-				sliderType: "range",
+        $('.icon-opt').on("click", function(){
+          $(this).toggleClass('opt-active');
+        })
 
-			    tooltipFormat: function (e) {
-    var parts = parseFloat(e.value).toFixed(2).split(".");
-    var sec = parts[1] == "" ? "" : 60*(parts[1]/100);
-    var value = parts[0] + "°C";
-    return value;
-  }
-		})
+      	  	$("#slider").roundSlider({
+          		    radius: 150,
+          		    width: 40,
+          			value: "18,78",
+      				sliderType: "range",
+
+      			    tooltipFormat: function (e) {
+                  var parts = parseFloat(e.value).toFixed(2).split(".");
+                  var sec = parts[1] == "" ? "" : 60*(parts[1]/100);
+                  var value = parts[0] + "°C";
+                  return value;
+                }
+        		})
 });

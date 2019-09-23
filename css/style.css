@@ -918,13 +918,13 @@ button {
 
   .air-head {
     font-size: 1.6em;
-    margin-left: 3.8em;
+    margin-left: 4.4em;
     margin-top: 0.1em;
   }
 
   .air-txt {
     top: 3em;
-    left: 4.3em;
+    left: 5.3em;
     margin-right: 0px;
     overflow: hidden;
   }
@@ -941,7 +941,7 @@ button {
 
   .air-temp-two {
     top: 4em;
-    left: 7.5em;
+    left: 8em;
     font-size: 30px;
   }
 
@@ -950,8 +950,8 @@ button {
 
 
   .air-slider {
-    top: 12.5em;
-    left: 0.01em;
+    top: 13.5em;
+    left: 0.5em;
   }
 
 
@@ -1151,41 +1151,45 @@ button {
 
 
   .home-txt {
-      top: 4.5em;
-      left: 1.2em;
-      font-size: 25px;
+      top: 4em;
+      left: 0.9em;
+      font-size: 55px;
   }
 
   .home-txt-two {
-      top: 5em;
+      top: 4.8em;
       left: 0.40em;
-      font-size: 23px;
+      font-size: 48px;
   }
 
   .home-txt-three {
-      top: 4.5em;
-      left: 1.8em;
+      top: 4.3em;
+      left: 1.7em;
+      font-size: 52px;
   }
 
   .home-txt-four {
       top: 5.2em;
-      left: 0.18em;
-      font-size: 22px;
+      left: 0.28em;
+      font-size: 44px;
   }
 
   .home-txt-five {
-      top: 3.6em;
-      left: 0.3em;
+      top: 5.2em;
+      left: 0.7em;
+      font-size: 44px;
   }
 
   .home-txt-six {
-      top: 4.5em;
-      left: 1.5em;
+      top: 5em;
+      left: 1.8em;
+      font-size: 44px;
   }
 
   .home-txt-seven {
-      top: 4.5em;
-      left: 1.5em;
+      top: 5em;
+      left: 2em;
+      font-size: 44px;
   }
 
 
@@ -1193,8 +1197,10 @@ button {
 
 
   .tech-list-active, .tech-list{
-    width: 18em;
-    margin-bottom: 5px;
+    width: 36.5em;
+    height: 11.6em;
+    margin-bottom: 10px;
+    margin-left: 40px;
   }
 
 
@@ -1202,25 +1208,27 @@ button {
 
 
   .list-txt {
-    top: 4.8em;
-    left: 6.5em;
-    font-size: 28px;
+    top: 5.8em;
+    left: 8em;
+    font-size: 40px;
   }
 
   .list-txt-two {
-    top: 10.1em;
-    left: 6.4em;
-    font-size: 28px;
+    top: 11.8em;
+    left: 8em;
+    font-size: 40px;
   }
 
   .list-txt-three {
-    top: 16.1em;
-    font-size: 28px;
+    top: 17.6em;
+    left: 8em;
+    font-size: 40px;
   }
 
   .list-txt-four {
-    top: 21.5em;
-    font-size: 28px;
+    top: 23.6em;
+    left: 8em;
+    font-size: 40px;
   }
 
 
@@ -1228,23 +1236,27 @@ button {
 
 
   .list-para {
-    top: 9.8em;
-    left: 9.5em;
+    top: 8.8em;
+    left: 9em;
+    font-size: 35px;
   }
 
   .list-para-two {
-    top: 18.6em;
-    left: 9.5em;
+    top: 15.7em;
+    left: 9em;
+    font-size: 35px;
   }
 
   .list-para-three {
-    top: 26.5em;
-    left: 9.4em;
+    top: 22.4em;
+    left: 9em;
+    font-size: 35px;
   }
 
   .list-para-four {
-    top: 34.5em;
-    left: 9.5em;
+    top: 29.2em;
+    left: 9em;
+    font-size: 35px;
   }
 
 
@@ -1252,27 +1264,27 @@ button {
 
 
   .list-icon {
-    height: 7em;
-    padding: 20px;
-    margin-left: 0.75em;
+    height: 10em;
+    margin-left: 2em;
+    margin-top: 0.40em;
   }
 
   .list-icon-two {
-    height: 7em;
-    padding: 20px;
-    margin-left: 1.8em;
+    height: 10em;
+    margin-left: 4em;
+    margin-top: 0.5em;
   }
 
   .list-icon-three {
-    height: 7em;
-    padding: 20px;
-    margin-left: 1.2em;
+    height: 10em;
+    margin-left: 3.3em;
+    margin-top: 0.6em;
   }
 
   .list-icon-four {
-    height:6.5em;
-    padding: 20px;
-    margin-left: 0.69em;
+    height:9.5em;
+    margin-left: 2.5em;
+    margin-top: 0.7em;
   }
 
 
@@ -1280,22 +1292,21 @@ button {
 
 
   .fa-plus-circle {
-    height: 1.8em;
-    width: 8.5em;
-    margin-left: 18px;
-    font-size: 40px;
-    padding-top: 14px;
-    padding-left: 70px;
-    border-radius: 5px;
-    margin-top: 10px;
+    height: 2em;
+    width: 9.94em;
+    margin-left: 40px;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-left: 165px;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
 
   .add-devices-txt {
-    font-size: 25px;
-    width: 8.5em;
+    font-size: 40px;
+    width: 10.5em;
     float: right;
-    margin-top: 8px; 
+    margin-top: 18px; 
   }
 
   .custom-txt {
@@ -1309,15 +1320,16 @@ button {
 
 
   .air-head {
-    font-size: 1.6em;
-    margin-left: 3.8em;
+    margin-left: 4.3em;
     margin-top: 0.1em;
+    font-size: 3em;
   }
 
   .air-txt {
     top: 3em;
-    left: 4.3em;
+    left: 4.8em;
     margin-right: 0px;
+    font-size: 2em;
     overflow: hidden;
   }
 
@@ -1327,14 +1339,14 @@ button {
 
   .air-temp {
     top: 4em;
-    left: 1.8em;
-    font-size: 30px;
+    left: 2.5em;
+    font-size: 50px;
   }
 
   .air-temp-two {
     top: 4em;
-    left: 7.5em;
-    font-size: 30px;
+    left: 9.3em;
+    font-size: 50px;
   }
 
 

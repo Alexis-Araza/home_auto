@@ -1,0 +1,143 @@
+.fas {
+  font-size: 60px;
+  margin: 5px;
+  float: right;
+  color: red;
+  z-index: 10; }
+
+.fa-times {
+  font-size: 70px;
+  margin-top: 19px;
+  margin-right: 31px; }
+
+.fa-angle-left {
+  font-size: 80px;
+  left: 0.55em;
+  top: 0.18em;
+  color: red;
+  z-index: 10;
+  float: left; }
+
+.fa-plus-circle {
+  height: 100px;
+  width: 11.5em;
+  margin-left: 12px;
+  font-size: 40px;
+  padding-top: 25px;
+  padding-left: 80px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+/*[iPhone 6/7/8]*/
+@media only screen and (max-width: 400px) {
+
+  .fas {
+    font-size: 60px;
+    margin: 5px;
+    color: blue;}
+
+  .fa-times {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 65px;}
+
+  .fa-angle-left {
+    font-size: 75px;
+    left: 0.40em;
+    top: 0.15em;
+    color: blue; }
+
+  .fa-plus-circle {
+    height: 1.8em;
+    width: 8.5em;
+    margin-left: 18px;
+    font-size: 40px;
+    padding-top: 14px;
+    padding-left: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  .fas {
+    font-size: 100px;
+    margin: 1px;
+    color: blue;}
+
+  .fa-times {
+    margin-top: 18px;
+    margin-right: 35px;
+    font-size: 110px;}
+
+  .fa-angle-left {
+    font-size: 150px;
+    left: 0.45em;
+    top: 0.01em;
+    color: blue; }
+
+  .fa-plus-circle {
+    height: 2em;
+    width: 9.94em;
+    margin-left: 40px;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-left: 165px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+  .fas {
+    font-size: 100px;
+    margin: 1px;
+    color: blue;}
+
+  .fa-times {
+    margin-top: 18px;
+    margin-right: 35px;
+    font-size: 110px;}
+
+  .fa-angle-left {
+    font-size: 150px;
+    left: 0.45em;
+    top: 0.01em;
+    color: blue; }
+
+  .fa-plus-circle {
+    height: 2em;
+    width: 10em;
+    margin-left: 258px;
+    font-size: 50px;
+    padding-top: 20.8px;
+    padding-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+}

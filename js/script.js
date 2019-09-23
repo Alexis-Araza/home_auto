@@ -1,4 +1,4 @@
-console.log('my script is here');
+console.log('my script is working');
 
 $(document).ready(function(){
   $('.fas').click(function(){

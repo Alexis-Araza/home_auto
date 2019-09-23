@@ -1,0 +1,46 @@
+.home-logos {
+  height: 13.6em;
+  display: inline-block;
+  float: left;}
+
+
+
+
+
+  /*[iPhone 6/7/8]*/
+@media only screen and (max-width: 400px) {
+
+ .home-logos {
+    height: 9.8em;
+  }
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  .home-logos {
+    height: 20.1em;
+  }
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+  .home-logos {
+    height: 12.5em;
+  }
+
+                   }

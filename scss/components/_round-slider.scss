@@ -1,0 +1,74 @@
+.air-slider {
+  position: absolute;
+  top: 20em;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+#slider .rs-range-color  {
+    background-color: black;
+}
+
+#slider .rs-path-color  {
+    background-color: grey;
+    border-radius: 0;
+}
+
+#slider .rs-handle  {
+    background-color: black;
+}
+
+#slider .rs-border  {
+    border: none;
+}
+
+#slider .rs-tooltip-text {
+  font-size: 28px;
+  top: 5.4em;
+  left: 5.4em;
+}
+
+
+
+
+
+/*[iPhone 6/7/8]*/
+@media only screen and (max-width: 400px) {
+
+  .air-slider {
+    top: 13.5em;
+    left: 0.5em;
+  }
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  .air-slider {
+    top: 23em;
+    left: 0.01em;
+  }
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+  .air-slider {
+    top: 14.5em;
+    left: 0.01em;
+  }
+                    
+                   }

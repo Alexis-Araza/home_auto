@@ -1045,9 +1045,9 @@ button {
     font-size: 110px;}
 
   .fa-angle-left {
-    font-size: 75px;
-    left: 0.40em;
-    top: 0.15em;
+    font-size: 150px;
+    left: 0.45em;
+    top: 0.01em;
     color: blue; }
 
 
@@ -1061,9 +1061,9 @@ button {
   }
 
   .fav-head {
-    font-size: 2em;
-    margin-left: 2.5em;
-    margin-top: 0.2em;
+    font-size: 3.5em;
+    margin-left: 3.5em;
+    margin-top: 0.1em;
   }
 
 
@@ -1076,6 +1076,13 @@ button {
     margin-top: 300px;
     background-color: white;
     cursor: not-allowed;
+  }
+
+  .log-in {
+    font-size: 80px;
+    margin-left: 27%;
+    margin-top: 220px;
+    background-color: white;
   }
 
   .log-mail {
@@ -1093,10 +1100,11 @@ button {
 
   .log-sub {
     font-size: 60px;
-    color: grey;
+    color: blue;
     padding: 30px;
     left: 245px;
     top: 660px;
+    background: white;
   }
 
   .landing-txt {
@@ -1310,10 +1318,10 @@ button {
   }
 
   .custom-txt {
-    font-size: 22px;
-    width: 8em;
-    margin-top: 10px;
-    margin-right: 35px; 
+    font-size: 40px;
+    width: 10em;
+    margin-top: 18px;
+    margin-right: 30px; 
   }
 
 
@@ -1354,7 +1362,7 @@ button {
 
 
   .air-slider {
-    top: 12.5em;
+    top: 23em;
     left: 0.01em;
   }
 
@@ -1363,24 +1371,450 @@ button {
 
 
   .icon-txt {
-    top: 4.3em;
-    left: 1.1em;
+    top: 4em;
+    left: 1.2em;
+    font-size: 50px;
   }
 
   .icon-txt-two {
-      top: 5em;
+      top: 5.2em;
       left: 0.07em;
-      font-size: 20px;
+      font-size: 40px;
   }
 
   .icon-txt-three {
       top: 4em;
       left: 2em;
+      font-size: 50px;
   }
 
   .icon-txt-four {
-      top: 5.3em;
-      font-size: 20px;
+      top: 5.2em;
+      font-size: 41px;
+      left: 0.2em;
+  }
+
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+  nav {
+  top: 0px;
+  display: none;
+  width: 100%;}
+  nav ul li { 
+    padding-top: 100px;}
+    nav ul li a {
+      font-size: 45px;
+      line-height: 50px;}
+
+  header {
+    width: 100%;
+    height: 130px; }
+
+  header i {
+    top: 0.2em;
+    left: 9em;
+  }
+
+  h1 {
+    width: 50%;
+    font-size: 4em;
+    padding-top: 0.58em;
+    margin-left: 4em
+  }
+
+  button {
+    font-size: 62px;
+    padding: 33px;
+    margin-top: 10px; }
+
+
+
+
+
+  .active {
+    margin: 0;
+    height: 70em;
+    display: block; }
+    .active a {
+      margin: 50px;
+      display: block; }
+
+  .fas {
+    font-size: 100px;
+    margin: 1px;
+    color: blue;}
+
+  .fa-times {
+    margin-top: 18px;
+    margin-right: 35px;
+    font-size: 110px;}
+
+  .fa-angle-left {
+    font-size: 150px;
+    left: 0.45em;
+    top: 0.01em;
+    color: blue; }
+
+
+
+
+
+  .menu-user {
+    top: 40px;
+    left: 395px;
+    font-size: 50px;
+  }
+
+  .fav-head {
+    font-size: 3.5em;
+    margin-left: 4.6em;
+    margin-top: 0.16em;
+  }
+
+
+
+
+
+  .sign-up {
+    font-size: 80px;
+    margin-left: 30.5%;
+    margin-top: 165px;
+    background-color: white;
+    cursor: not-allowed;
+  }
+
+  .log-in {
+    font-size: 80px;
+    margin-left: 33%;
+    margin-top: 220px;
+    background-color: white;
+  }
+
+  .log-mail {
+    font-size: 40px;
+    padding: 25px;
+    left: 255px;
+    top: 150px;
+  }
+
+  .log-pass {
+    font-size: 40px;
+    padding: 25px;
+    left: 255px;
+    top: 345px;
+  }
+
+  .log-sub {
+    font-size: 60px;
+    color: blue;
+    padding: 30px;
+    left: 375px;
+    top: 530px;
+    background: white;
+  }
+
+  .landing-txt {
+    top: -120px;
+    left: 260px;
+    font-size: 70px;
+  }
+
+  .landing-txt-two {
+    bottom: 195px;
+    left: 210px;
+    font-size: 72px;
+  }
+
+
+
+
+
+  .home-logos {
+    height: 12.5em;
+  }
+
+  .icon-opt { 
+    width: 12.8em;
+    height: 12.8em;
+    margin-left: 40px;
+    color: black;}
+
+  .btn {
+    height: 60px;
+    width: 50%;
+    margin-bottom: 5em;
+    margin-left: 9.3em;
+  }
+
+  .tech-tab {
+    left: 0.6em;
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+
+  .room-tab {
+    left: 6.9em;
+    padding: 25px;
+    background-color: white;
+  }
+
+  .room-tab-alt {
+    right: 0.29em;
+    top: 0.01em;
+    padding: 25px;
+    color: black;
+  }
+
+
+
+
+  .home-txt {
+      top: 4.6em;
+      left: 1.3em;
+      font-size: 30px;
+  }
+
+  .home-txt-two {
+      top: 4.6em;
+      left: 0.35em;
+      font-size: 30px;
+  }
+
+  .home-txt-three {
+      top: 4.6em;
+      left: 2em;
+      font-size: 30px;
+  }
+
+  .home-txt-four {
+      top: 5.2em;
+      left: 0.28em;
+      font-size: 27px;
+  }
+
+  .home-txt-five {
+      top: 5.2em;
+      left: 0.7em;
+      font-size: 27px;
+  }
+
+  .home-txt-six {
+      top: 5.2em;
+      left: 2em;
+      font-size: 27px;
+  }
+
+  .home-txt-seven {
+      top: 5.1em;
+      left: 2.1em;
+      font-size: 27px;
+  }
+
+
+
+
+
+  .tech-list-active, .tech-list{
+    width: 23.5em;
+    height: 11.6em;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    float: left;
+  }
+
+
+
+
+
+  .list-txt {
+    top: 5.2em;
+    left: 6.5em;
+    font-size: 40px;
+  }
+
+  .list-txt-two {
+    top: 4.8em;
+    left: 15.6em;
+    margin-left: 132px;
+    font-size: 39px;
+  }
+
+  .list-txt-three {
+    top: 11.4em;
+    left: 6.5em;
+    font-size: 40px;
+  }
+
+  .list-txt-four {
+    top: 11.4em;
+    left: 18.6em;
+    font-size: 40px;
+  }
+
+
+
+
+
+  .list-para {
+    top: 9.8em;
+    left: 8.5em;
+    font-size: 30px;
+  }
+
+  .list-para-two {
+    top: 9.8em;
+    left: 24.5em;
+    font-size: 30px;
+  }
+
+  .list-para-three {
+    top: 18em;
+    left: 8.5em;
+    font-size: 30px;
+  }
+
+  .list-para-four {
+    top: 18em;
+    left: 24.9em;
+    font-size: 30px;
+  }
+
+
+
+
+
+  .list-icon {
+    height: 9em;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+
+  .list-icon-two {
+    height: 9.5em;
+    margin-left: 2.5em;
+    margin-top: 0.8em;
+  }
+
+  .list-icon-three {
+    height: 9em;
+    margin-left: 2em;
+    margin-top: 1.2em;
+  }
+
+  .list-icon-four {
+    height:8em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+  }
+
+
+
+
+
+  .fa-plus-circle {
+    height: 2em;
+    width: 10em;
+    margin-left: 258px;
+    font-size: 50px;
+    padding-top: 20.8px;
+    padding-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .add-devices-txt {
+    font-size: 30px;
+    width: 10.2em;
+    float: right;
+    margin-top: 12px; 
+  }
+
+  .custom-txt {
+    font-size: 30px;
+    width: 10em;
+    margin-top: 12px;
+    margin-right: 16px; 
+  }
+
+
+
+
+  .air-head {
+    margin-left: 4.8em;
+    margin-top: 0.1em;
+    font-size: 3.5em;
+  }
+
+  .air-txt {
+    top: 2.3em;
+    left: 8.6em;
+    margin-right: 0px;
+    font-size: 2em;
+    overflow: hidden;
+  }
+
+
+
+
+
+  .air-temp {
+    top: 4em;
+    left: 7em;
+    font-size: 40px;
+  }
+
+  .air-temp-two {
+    top: 4em;
+    left: 15.3em;
+    font-size: 40px;
+  }
+
+
+
+
+
+  .air-slider {
+    top: 14.5em;
+    left: 0.01em;
+  }
+
+
+
+
+
+  .icon-txt {
+    top: 4em;
+    left: 1.3em;
+    font-size: 30px;
+  }
+
+  .icon-txt-two {
+      top: 4.8em;
+      left: 0.2em;
+      font-size: 26px;
+  }
+
+  .icon-txt-three {
+      top: 4.3em;
+      left: 2em;
+      font-size: 30px;
+  }
+
+  .icon-txt-four {
+      top: 5.2em;
+      font-size: 25px;
       left: 0.2em;
   }
 

@@ -3,7 +3,7 @@
   align-items: center;
   grid-template-columns: repeat(2, 12px);
   grid-template-rows: repeat(2, auto);
-  border: 3px solid black; 
+  border: 3px solid $l-color; 
   width: 14em;
   height: 14em;
   margin-left: 12px;
@@ -11,16 +11,16 @@
   margin-bottom: 1px;
   float: left;
   position: relative;
-  color: black;}
+  color: $l-color;}
 
 .opt-active {
-    background-color: lightgreen;}
+    background-color: $active-color;}
 
 .tech-tab {
   position: absolute;
   border-radius: 3px;
   left: 0.3em;
-  color: black;
+  color: $l-color;
 }
 
 .room-tab {
@@ -28,10 +28,10 @@
   border-radius: 3px;
   left: 6.6em;
   float: right;
-  color: black;
+  color: $l-color;
 }
   #tab-inactive {
-    background-color: grey;
+    background-color: $o-color;
   }
 
 .room-tab-alt {
@@ -39,7 +39,7 @@
   border-radius: 3px;
   right: 0.29em;
   top: 0.01em;
-  color: black;
+  color: $l-color;
 }
 
 .add-devices-txt {
@@ -50,9 +50,9 @@
 }
 
 .add-more {
-  border: 2px solid black;
-  background-color: lightblue;
-  color: black; }
+  @include btn-border;
+  background-color: $m-color;
+  color: $l-color; }
 
 
 
@@ -65,22 +65,22 @@
     width: 10.2em;
     height: 10.2em;
     margin-left: 16px;
-    color: black;}
+    color: $l-color;}
 
   .tech-tab {
     left: 0.5em;
-    background-color: white;
+    background-color: $bg-color;
   }
 
   .room-tab {
     left: 7.1em;
-    background-color: white;
+    background-color: $bg-color;
   }
 
   .room-tab-alt {
     right: 0.29em;
     top: 0.01em;
-    color: black;
+    color: $l-color;
   }
 
   .add-devices-txt {
@@ -103,22 +103,22 @@
     width: 20.5em;
     height: 20.5em;
     margin-left: 40px;
-    color: black;}
+    color: $l-color;}
 
   .tech-tab {
     left: 0.6em;
-    background-color: white;
+    background-color: $bg-color;
   }
 
   .room-tab {
     left: 7.1em;
-    background-color: white;
+    background-color: $bg-color;
   }
 
   .room-tab-alt {
     right: 0.29em;
     top: 0.01em;
-    color: black;
+    color: $l-color;
   }
 
   .add-devices-txt {
@@ -144,7 +144,7 @@
     width: 12.8em;
     height: 12.8em;
     margin-left: 40px;
-    color: black;}
+    color: $l-color;}
 
   .btn {
     height: 60px;
@@ -157,20 +157,20 @@
     left: 0.6em;
     padding: 25px;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: $bg-color;
   }
 
   .room-tab {
     left: 6.9em;
     padding: 25px;
-    background-color: white;
+    background-color: $bg-color;
   }
 
   .room-tab-alt {
     right: 0.29em;
     top: 0.01em;
     padding: 25px;
-    color: black;
+    color: $l-color;
   }
 
   .add-devices-txt {

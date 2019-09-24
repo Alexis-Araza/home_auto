@@ -2,7 +2,7 @@
   font-size: 60px;
   margin: 5px;
   float: right;
-  color: red;
+  color: $l-color;
   z-index: 10; }
 
 .fa-times {
@@ -14,7 +14,7 @@
   font-size: 80px;
   left: 0.55em;
   top: 0.18em;
-  color: red;
+  color: $l-color;
   z-index: 10;
   float: left; }
 
@@ -40,7 +40,7 @@
   .fas {
     font-size: 60px;
     margin: 5px;
-    color: blue;}
+    color: $l-color;}
 
   .fa-times {
     margin-top: 20px;
@@ -51,7 +51,7 @@
     font-size: 75px;
     left: 0.40em;
     top: 0.15em;
-    color: blue; }
+    color: $l-color; }
 
   .fa-plus-circle {
     height: 1.8em;
@@ -77,7 +77,7 @@
   .fas {
     font-size: 100px;
     margin: 1px;
-    color: blue;}
+    color: $l-color;}
 
   .fa-times {
     margin-top: 18px;
@@ -88,7 +88,7 @@
     font-size: 150px;
     left: 0.45em;
     top: 0.01em;
-    color: blue; }
+    color: $l-color; }
 
   .fa-plus-circle {
     height: 2em;
@@ -116,7 +116,7 @@
   .fas {
     font-size: 100px;
     margin: 1px;
-    color: blue;}
+    color: $l-color;}
 
   .fa-times {
     margin-top: 18px;
@@ -127,7 +127,7 @@
     font-size: 150px;
     left: 0.45em;
     top: 0.01em;
-    color: blue; }
+    color: $l-color; }
 
   .fa-plus-circle {
     height: 2em;

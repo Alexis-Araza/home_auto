@@ -1,5 +1,5 @@
 button {
-  border: 2px solid black;
+  @include btn-border;
   font-size: 45.2px;
   padding: 20px;
   margin-top: 10px; }

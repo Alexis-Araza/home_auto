@@ -3,7 +3,7 @@
 }
 
 .air-txt {
-  margin: 0 auto;
+  @include margin (0 auto);
   position: absolute;
   top: 5em;
   left: 8.2em;
@@ -17,7 +17,7 @@
 
 .air-temp {
   position: absolute;
-  margin: 0 auto;
+  @include margin (0 auto);
   top: 5em;
   left: 2.5em;
   font-size: 35px;
@@ -26,7 +26,7 @@
 
 .air-temp-two {
   position: absolute;
-  margin: 0 auto;
+  @include margin (0 auto);
   top: 5em;
   left: 8.5em;
   font-size: 35px;

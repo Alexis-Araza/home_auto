@@ -1,5 +1,5 @@
 nav {
-  background: lightblue;
+  background: $m-color;
   z-index: 10;
   position: fixed;
   top: 0px;
@@ -8,16 +8,16 @@ nav {
   width: 100%;
   left: 0px;}
   nav ul li {
-    margin: auto; 
-    padding-top: 90px;}
+      @include margin (0 auto);
+      padding-top: 90px;}
     nav ul li a {
       font-size: 55px;
       line-height: 80px;
       text-align: center;
-      color: black;}
+      color: $l-color;}
 
 .active {
-  margin: 0;
+  @include margin (0 auto);
   height: 70em;
   display: block; }
   .active a {
@@ -30,7 +30,7 @@ nav {
   left: 165px;
   font-size: 35px;
   font-weight: normal;
-  color: grey;
+  color: $o-color;
 }
 
 .menu-ss {
@@ -55,7 +55,7 @@ nav {
       line-height: 30px;}
 
   .active {
-    margin: 0;
+    @include margin (0 auto);
     height: 70em;
     display: block; }
     .active a {
@@ -88,7 +88,7 @@ nav {
       line-height: 100px;}
 
   .active {
-    margin: 0;
+    @include margin (0 auto);
     height: 70em;
     display: block; }
     .active a {
@@ -124,7 +124,7 @@ nav {
       line-height: 50px;}
 
   .active {
-    margin: 0;
+    @include margin (0 auto);
     height: 70em;
     display: block; }
     .active a {

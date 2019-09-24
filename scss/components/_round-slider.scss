@@ -1,21 +1,21 @@
 .air-slider {
   position: absolute;
   top: 20em;
-  margin: 0 auto;
+  @include margin (0 auto);
   z-index: 0;
 }
 
 #slider .rs-range-color  {
-    background-color: black;
+    background-color: $l-color;
 }
 
 #slider .rs-path-color  {
-    background-color: grey;
+    background-color: $o-color;
     border-radius: 0;
 }
 
 #slider .rs-handle  {
-    background-color: black;
+    background-color: $l-color;
 }
 
 #slider .rs-border  {

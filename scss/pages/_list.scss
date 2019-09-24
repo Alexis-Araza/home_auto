@@ -1,17 +1,17 @@
 .tech-list {
-  border: 2px solid grey;
+  border: 2px solid $o-color;
   border-radius: 5px;
-  background-color: beige;
-  color: black;
+  background-color: $list-color;
+  color: $l-color;
   margin: 0.90em; 
   font-size: 19px;
   width: 24em}
 
 .tech-list-active {
-  border: 2px solid grey;
+  border: 2px solid $o-color;
   border-radius: 5px;
-  background-color: lightgreen;
-  color: black;
+  background-color: $active-color;
+  color: $l-color;
   margin: 0.90em; 
   font-size: 19px;
   width: 24em
@@ -53,7 +53,7 @@
   position: absolute;
   font-weight: normal;
   font-style: italic;
-  color: grey;
+  color: $o-color;
   top: 11.5em;
   left: 10em;
 }
@@ -62,7 +62,7 @@
   position: absolute;
   font-weight: normal;
   font-style: italic;
-  color: grey;
+  color: $o-color;
   top: 20.8em;
   left: 10em;
 }
@@ -71,7 +71,7 @@
   position: absolute;
   font-weight: normal;
   font-style: italic;
-  color: grey;
+  color: $o-color;
   top: 30em;
   left: 10em;
 }
@@ -80,7 +80,7 @@
   position: absolute;
   font-weight: normal;
   font-style: italic;
-  color: grey;
+  color: $o-color;
   top: 39.3em;
   left: 10em;
 }

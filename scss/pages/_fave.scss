@@ -1,32 +1,38 @@
-  .air-head {
-    margin-left: 4.8em;
-    margin-top: 0.1em;
-    font-size: 3.5em;
-  }
+.icon-txt {
+    z-index: 9;
+    top: 6em;
+    left: 2.3em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
 
-  .air-txt {
-    top: 2.3em;
-    left: 8.6em;
-    margin-right: 0px;
-    font-size: 2em;
-    overflow: hidden;
-  }
+.icon-txt-two {
+    z-index: 9;
+    top: 5.8em;
+    left: 0.07em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
 
+.icon-txt-three {
+    z-index: 9;
+    top: 6em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    left: 3em;
+}
 
-
-
-
-  .air-temp {
-    top: 4em;
-    left: 7em;
-    font-size: 40px;
-  }
-
-  .air-temp-two {
-    top: 4em;
-    left: 15.3em;
-    font-size: 40px;
-  }
+.icon-txt-four {
+    z-index: 9;
+    top: 6.5em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    left: 0.4em;
+}
 
 .custom-txt {
   font-size: 30px;
@@ -40,7 +46,13 @@
 
 
 /*[iPhone 6/7/8]*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
+
+    .fav-head {
+    font-size: 2em;
+    margin-left: 2.5em;
+    margin-top: 0.2em;
+  }
 
   .icon-txt {
     top: 4.3em;
@@ -80,6 +92,12 @@
 
 /*[iPad]*/
 @media only screen and (min-width: 750px) {
+
+    .fav-head {
+    font-size: 3.5em;
+    margin-left: 3.5em;
+    margin-top: 0.1em;
+  }
 
   .icon-txt {
     top: 4em;
@@ -123,6 +141,12 @@
                    and (max-device-width: 1024px)
                    and (orientation: landscape)
                    and (-webkit-min-device-pixel-ratio:1) {
+
+  .fav-head {
+    font-size: 3.5em;
+    margin-left: 4.6em;
+    margin-top: 0.16em;
+  }
 
   .icon-txt {
     top: 4em;

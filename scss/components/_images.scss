@@ -31,7 +31,7 @@
 
 
   /*[iPhone 6/7/8]*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
 
  .home-logos {
     height: 9.8em;
@@ -59,6 +59,19 @@
     height:6.5em;
     padding: 20px;
     margin-left: 0.69em;
+  } 
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  .home-logos {
+    height: 20.1em;
   }
 
   .list-icon {
@@ -83,7 +96,7 @@
     height:9.5em;
     margin-left: 2.5em;
     margin-top: 0.7em;
-  }  
+  } 
 
 }
 
@@ -91,11 +104,14 @@
 
 
 
-/*[iPad]*/
-@media only screen and (min-width: 750px) {
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
 
-  .home-logos {
-    height: 20.1em;
+    .home-logos {
+    height: 12.5em;
   }
 
   .list-icon {
@@ -120,45 +136,6 @@
     height:8em;
     margin-left: 1.5em;
     margin-top: 1.5em;
-  }  
-
-}
-
-
-
-
-
-/*[iPad Landscape]*/
-@media only screen and (min-device-width: 768px)
-                   and (max-device-width: 1024px)
-                   and (orientation: landscape)
-                   and (-webkit-min-device-pixel-ratio:1) {
-
-  .home-logos {
-    height: 12.5em;
-  }
-
-  .list-icon {
-    height: 8em;
-    padding: 20px;
-  }
-
-  .list-icon-two {
-    height: 8em;
-    padding: 20px;
-    margin-left: 1.5em;
-  }
-
-  .list-icon-three {
-    height: 8em;
-    padding: 20px;
-    margin-left: 1em;
-  }
-
-  .list-icon-four {
-    height: 8em;
-    padding: 20px;
-    margin-left: 0.01em;
   }
 
 }

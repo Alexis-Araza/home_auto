@@ -1,3 +1,7 @@
-@mixin margin ($m) {
+@mixin m-cen ($m) {
 	margin: $m;
+}
+
+@mixin btn-border {
+	border: 2px solid $l-color;
 }

@@ -1,9 +1,9 @@
+@import 'utilities/mixins';
+@import 'utilities/variables';
+// @import 'utilities/inherit';
+
 @import 'base/cssReset';
 @import 'base/text';
-
-@import 'utilities/variables';
-@import 'utliities/mixins';
-@import 'utilities/inherit';
 
 @import 'components/buttons';
 @import 'components/images';

@@ -1,7 +1,7 @@
 h1 {
   display: block;
   width: 50%;
-  @include margin (0 auto); 
+  @include m-cen (0 auto); 
   text-align: center;
   font-size: 2.5em;
   padding-top: 0.8em;

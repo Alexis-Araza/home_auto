@@ -1,9 +1,10 @@
 .air-head {
   font-size: 2em;
+  @include m-cen (0 auto);
 }
 
 .air-txt {
-  @include margin (0 auto);
+  @include m-cen (0 auto);
   position: absolute;
   top: 5em;
   left: 8.2em;
@@ -17,7 +18,7 @@
 
 .air-temp {
   position: absolute;
-  @include margin (0 auto);
+  @include m-cen (0 auto);
   top: 5em;
   left: 2.5em;
   font-size: 35px;
@@ -26,7 +27,7 @@
 
 .air-temp-two {
   position: absolute;
-  @include margin (0 auto);
+  @include m-cen (0 auto);
   top: 5em;
   left: 8.5em;
   font-size: 35px;
@@ -38,7 +39,7 @@
 
 
 /*[iPhone 6/7/8]*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
 
   .air-head {
     font-size: 1.6em;

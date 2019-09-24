@@ -1,0 +1,248 @@
+h1 {
+  display: block;
+  width: 50%;
+  margin: 0 auto; 
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 0.8em;
+}
+
+.home-txt {
+    z-index: 9;
+    top: 6em;
+    left: 2.3em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.home-txt-two {
+    z-index: 9;
+    top: 6em;
+    left: 1.5em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+  .home-txt-two::active {
+    color: black;
+  }
+
+.home-txt-three {
+    z-index: 9;
+    top: 6em;
+    left: 3em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.home-txt-four {
+    z-index: 9;
+    top: 6em;
+    left: 1em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.home-txt-five {
+    z-index: 9;
+    top: 6em;
+    left: 1.5em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.home-txt-six {
+    z-index: 9;
+    top: 6em;
+    left: 2.7em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.home-txt-seven {
+    z-index: 9;
+    top: 6em;
+    left: 2.7em;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+
+
+
+/*[iPhone 6/7/8]*/
+@media only screen and (max-width: 400px) {
+
+  h1 {
+    width: 50%;
+    font-size: 2.5em;
+    padding-top: 0.8em;
+  }
+
+  .home-txt {
+      top: 4.5em;
+      left: 1.2em;
+      font-size: 25px;
+  }
+
+  .home-txt-two {
+      top: 5em;
+      left: 0.40em;
+      font-size: 23px;
+  }
+
+  .home-txt-three {
+      top: 4.5em;
+      left: 1.8em;
+  }
+
+  .home-txt-four {
+      top: 5.2em;
+      left: 0.18em;
+      font-size: 22px;
+  }
+
+  .home-txt-five {
+      top: 3.6em;
+      left: 0.3em;
+  }
+
+  .home-txt-six {
+      top: 4.5em;
+      left: 1.5em;
+  }
+
+  .home-txt-seven {
+      top: 4.5em;
+      left: 1.5em;
+  }  
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  h1 {
+    width: 50%;
+    font-size: 4em;
+    padding-top: 0.58em;
+    margin-left: 3.2em
+  }
+
+  .home-txt {
+      top: 4em;
+      left: 0.9em;
+      font-size: 55px;
+  }
+
+  .home-txt-two {
+      top: 4.8em;
+      left: 0.40em;
+      font-size: 48px;
+  }
+
+  .home-txt-three {
+      top: 4.3em;
+      left: 1.7em;
+      font-size: 52px;
+  }
+
+  .home-txt-four {
+      top: 5.2em;
+      left: 0.28em;
+      font-size: 44px;
+  }
+
+  .home-txt-five {
+      top: 5.2em;
+      left: 0.7em;
+      font-size: 44px;
+  }
+
+  .home-txt-six {
+      top: 5em;
+      left: 1.8em;
+      font-size: 44px;
+  }
+
+  .home-txt-seven {
+      top: 5em;
+      left: 2em;
+      font-size: 44px;
+  }
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+  h1 {
+    width: 50%;
+    font-size: 4em;
+    padding-top: 0.58em;
+    margin-left: 4em
+  }
+
+  .home-txt {
+      top: 4.6em;
+      left: 1.3em;
+      font-size: 30px;
+  }
+
+  .home-txt-two {
+      top: 4.6em;
+      left: 0.35em;
+      font-size: 30px;
+  }
+
+  .home-txt-three {
+      top: 4.6em;
+      left: 2em;
+      font-size: 30px;
+  }
+
+  .home-txt-four {
+      top: 5.2em;
+      left: 0.28em;
+      font-size: 27px;
+  }
+
+  .home-txt-five {
+      top: 5.2em;
+      left: 0.7em;
+      font-size: 27px;
+  }
+
+  .home-txt-six {
+      top: 5.2em;
+      left: 2em;
+      font-size: 27px;
+  }
+
+  .home-txt-seven {
+      top: 5.1em;
+      left: 2.1em;
+      font-size: 27px;
+  }  
+
+}

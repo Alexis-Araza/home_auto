@@ -1,0 +1,247 @@
+.sign-up {
+  display: inline-block;
+  border: 2px solid black;
+  font-size: 60px;
+  padding: 30px;
+  margin-left: 18%;
+  margin-top: 260px;
+  display: block;
+  color: purple;
+  font-weight: normal;
+}
+
+.log-in {
+  border: 2px solid black;
+  font-size: 60px;
+  padding: 30px;
+  margin-left: 22%;
+  margin-top: 240px;
+  display: block;
+  font-weight: normal;
+  color: blue;
+}
+
+.log-mail {
+  border: 2px solid grey;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+  left: 120px;
+  top: 300px;
+  position: absolute;
+}
+
+.log-pass {
+  border: 2px solid grey;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+  left: 120px;
+  top: 420px;
+  position: absolute;
+}
+
+.log-sub {
+  border: 2px solid grey;
+  font-size: 20px;
+  font-weight: normal;
+  color: grey;
+  text-align: center;
+  padding: 20px;
+  left: 190px;
+  top: 530px;
+  position: absolute;
+  color: blue;
+}
+
+.landing-txt {
+  z-index: 10;
+  position: absolute;
+  top: -90px;
+  left: 75px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.landing-txt-two {
+  z-index: 10;
+  position: absolute;
+  bottom: 150px;
+  left: 45px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+
+
+
+
+/*[iPhone 6/7/8]*/
+@media only screen and (max-width: 400px) {
+
+.sign-up {
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 180px;
+    background-color: white;
+    cursor: not-allowed;
+  }
+
+  .log-in {
+    font-size: 40px;
+    margin-left: 23.5%;
+    margin-top: 150px;
+    background-color: white;
+  }
+
+  .log-mail {
+    left: 65px;
+    top: 200px;
+  }
+
+  .log-pass {
+    left: 65px;
+    top: 320px;
+  }
+
+  .log-sub {
+    left: 135px;
+    top: 430px;
+    background-color: white;
+  }
+
+  .landing-txt {
+    top: -65px;
+    left: 55px;
+    font-size: 40px;
+  }
+
+  .landing-txt-two {
+    bottom: 130px;
+    left: 32px;
+    font-size: 38px;
+  }
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  .sign-up {
+    font-size: 80px;
+    margin-left: 24%;
+    margin-top: 300px;
+    background-color: white;
+    cursor: not-allowed;
+  }
+
+  .log-in {
+    font-size: 80px;
+    margin-left: 27%;
+    margin-top: 220px;
+    background-color: white;
+  }
+
+  .log-mail {
+    font-size: 40px;
+    padding: 25px;
+    left: 130px;
+  }
+
+  .log-pass {
+    font-size: 40px;
+    padding: 25px;
+    left: 130px;
+    top: 485px;
+  }
+
+  .log-sub {
+    font-size: 60px;
+    color: blue;
+    padding: 30px;
+    left: 245px;
+    top: 660px;
+    background: white;
+  }
+
+  .landing-txt {
+    top: -120px;
+    left: 110px;
+    font-size: 80px;
+  }
+
+  .landing-txt-two {
+    bottom: 180px;
+    left: 68px;
+    font-size: 78px;
+  }
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+.sign-up {
+    font-size: 80px;
+    margin-left: 30.5%;
+    margin-top: 165px;
+    background-color: white;
+    cursor: not-allowed;
+  }
+
+  .log-in {
+    font-size: 80px;
+    margin-left: 33%;
+    margin-top: 220px;
+    background-color: white;
+  }
+
+  .log-mail {
+    font-size: 40px;
+    padding: 25px;
+    left: 255px;
+    top: 150px;
+  }
+
+  .log-pass {
+    font-size: 40px;
+    padding: 25px;
+    left: 255px;
+    top: 345px;
+  }
+
+  .log-sub {
+    font-size: 60px;
+    color: blue;
+    padding: 30px;
+    left: 375px;
+    top: 530px;
+    background: white;
+  }
+
+  .landing-txt {
+    top: -120px;
+    left: 260px;
+    font-size: 70px;
+  }
+
+  .landing-txt-two {
+    bottom: 195px;
+    left: 210px;
+    font-size: 72px;
+  }
+
+}

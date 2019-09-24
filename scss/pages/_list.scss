@@ -1,0 +1,287 @@
+.tech-list {
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: beige;
+  color: black;
+  margin: 0.90em; 
+  font-size: 19px;
+  width: 24em}
+
+.tech-list-active {
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: black;
+  margin: 0.90em; 
+  font-size: 19px;
+  width: 24em
+}
+
+.list-txt {
+  position: absolute;
+  top: 5.5em;
+  left: 6.4em;
+  font-size: 30px;
+}
+
+.list-txt-two {
+  position: absolute;
+  top: 11.8em;
+  left: 6.6em;
+  font-size: 29px;
+}
+
+.list-txt-three {
+  position: absolute;
+  top: 17em;
+  left: 6.4em;
+  font-size: 30px;
+}
+
+.list-txt-four {
+  position: absolute;
+  top: 23em;
+  left: 6.4em;
+  font-size: 30px;
+}
+
+
+
+
+
+.list-para {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 11.5em;
+  left: 10em;
+}
+
+.list-para-two {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 20.8em;
+  left: 10em;
+}
+
+.list-para-three {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 30em;
+  left: 10em;
+}
+
+.list-para-four {
+  position: absolute;
+  font-weight: normal;
+  font-style: italic;
+  color: grey;
+  top: 39.3em;
+  left: 10em;
+}
+
+
+
+
+
+/*[iPhone 6/7/8]*/
+@media only screen and (max-width: 400px) {
+
+  .tech-list-active, .tech-list{
+    width: 18em;
+    margin-bottom: 5px;
+  }
+
+  .list-txt {
+    top: 4.8em;
+    left: 6.5em;
+    font-size: 28px;
+  }
+
+  .list-txt-two {
+    top: 10.1em;
+    left: 6.4em;
+    font-size: 28px;
+  }
+
+  .list-txt-three {
+    top: 16.1em;
+    font-size: 28px;
+  }
+
+  .list-txt-four {
+    top: 21.5em;
+    font-size: 28px;
+  }
+
+
+
+
+
+  .list-para {
+    top: 9.8em;
+    left: 9.5em;
+  }
+
+  .list-para-two {
+    top: 18.6em;
+    left: 9.5em;
+  }
+
+  .list-para-three {
+    top: 26.5em;
+    left: 9.4em;
+  }
+
+  .list-para-four {
+    top: 34.5em;
+    left: 9.5em;
+  }  
+
+}
+
+
+
+
+
+/*[iPad]*/
+@media only screen and (min-width: 750px) {
+
+  .tech-list-active, .tech-list{
+    width: 36.5em;
+    height: 11.6em;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  .list-txt {
+    top: 5.8em;
+    left: 8em;
+    font-size: 40px;
+  }
+
+  .list-txt-two {
+    top: 11.8em;
+    left: 8em;
+    font-size: 40px;
+  }
+
+  .list-txt-three {
+    top: 17.6em;
+    left: 8em;
+    font-size: 40px;
+  }
+
+  .list-txt-four {
+    top: 23.6em;
+    left: 8em;
+    font-size: 40px;
+  }
+
+
+
+
+
+  .list-para {
+    top: 8.8em;
+    left: 9em;
+    font-size: 35px;
+  }
+
+  .list-para-two {
+    top: 15.7em;
+    left: 9em;
+    font-size: 35px;
+  }
+
+  .list-para-three {
+    top: 22.4em;
+    left: 9em;
+    font-size: 35px;
+  }
+
+  .list-para-four {
+    top: 29.2em;
+    left: 9em;
+    font-size: 35px;
+  }
+
+}
+
+
+
+
+
+/*[iPad Landscape]*/
+@media only screen and (min-device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape)
+                   and (-webkit-min-device-pixel-ratio:1) {
+
+  .tech-list-active, .tech-list{
+    width: 23.5em;
+    height: 11.6em;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    float: left;
+  }
+
+  .list-txt {
+    top: 5.2em;
+    left: 6.5em;
+    font-size: 40px;
+  }
+
+  .list-txt-two {
+    top: 4.8em;
+    left: 15.6em;
+    margin-left: 132px;
+    font-size: 39px;
+  }
+
+  .list-txt-three {
+    top: 11.4em;
+    left: 6.5em;
+    font-size: 40px;
+  }
+
+  .list-txt-four {
+    top: 11.4em;
+    left: 18.6em;
+    font-size: 40px;
+  }
+
+
+
+
+
+  .list-para {
+    top: 9.8em;
+    left: 8.5em;
+    font-size: 30px;
+  }
+
+  .list-para-two {
+    top: 9.8em;
+    left: 24.5em;
+    font-size: 30px;
+  }
+
+  .list-para-three {
+    top: 18em;
+    left: 8.5em;
+    font-size: 30px;
+  }
+
+  .list-para-four {
+    top: 18em;
+    left: 24.9em;
+    font-size: 30px;
+  }
+
+}
